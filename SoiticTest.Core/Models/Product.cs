@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace SoiticTest.Models
 {
     [Table("tblProducts")]
-    public class Product:FullAuditedEntity
+    public class Product : FullAuditedEntity
     {
         public Product()
         {
@@ -42,11 +42,11 @@ namespace SoiticTest.Models
 
         [Required]
         [Display(Name = "Data de entrada no estoque")]
-        public virtual DateTime EntryDate { get; set; }
+        public DateTime EntryDate { get; set; }
 
         [Required]
         [Display(Name = "Data de validade")]
-        public virtual DateTime ExpirationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
 
         [Required]
         [Display(Name = "Valor do produto")]

@@ -179,8 +179,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\IProductManager.cs" />
+    <Compile Include="Models\IProviderManager.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductManager.cs" />
     <Compile Include="Models\Provider.cs" />
+    <Compile Include="Models\ProviderManager.cs" />
     <Compile Include="SoiticTestConsts.cs" />
     <Compile Include="SoiticTestCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />

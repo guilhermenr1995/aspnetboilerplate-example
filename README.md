@@ -1,3 +1,4 @@
+﻿
 ASP.NET Boilerplate - Module Zero - Startup Template
 ----------------------------------------------------
 

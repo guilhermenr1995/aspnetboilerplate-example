@@ -219,6 +219,14 @@
     <Compile Include="Migrations\201804241732155_creating_tables.Designer.cs">
       <DependentUpon>201804241732155_creating_tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804251953254_datetime_fix.cs" />
+    <Compile Include="Migrations\201804251953254_datetime_fix.Designer.cs">
+      <DependentUpon>201804251953254_datetime_fix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804252001059_database_fix1.cs" />
+    <Compile Include="Migrations\201804252001059_database_fix1.Designer.cs">
+      <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="SoiticTestDataModule.cs" />
@@ -256,6 +264,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804241732155_creating_tables.resx">
       <DependentUpon>201804241732155_creating_tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804251953254_datetime_fix.resx">
+      <DependentUpon>201804251953254_datetime_fix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804252001059_database_fix1.resx">
+      <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

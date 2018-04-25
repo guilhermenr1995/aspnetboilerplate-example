@@ -5,15 +5,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 
 namespace SoiticTest.Providers
 {
     public interface IProviderAppService : IApplicationService
     {
-        IEnumerable<GetProviderOutput> ListAll();
+        [HttpGet]
+        IEnumerable<GetProviderOutput> GetAll();
+
+        [HttpPost]
         Task Create(CreateProviderInput input);
+
+        [HttpPut]
         void Update(UpdateProviderInput input);
+
+        [HttpDelete]
         void Delete(DeleteProviderInput input);
-        GetProviderOutput GetProviderById(GetProviderInput input);
+
+        [HttpGet]
+        GetProviderOutput GetById(GetProviderInput input);
     }
 }

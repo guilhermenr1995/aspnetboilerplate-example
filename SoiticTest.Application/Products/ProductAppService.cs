@@ -30,14 +30,14 @@ namespace SoiticTest.Products
             _productManager.Delete(input.Id);
         }
 
-        public GetProductOutput GetProductById(GetProductInput input)
+        public GetProductOutput GetById(GetProductInput input)
         {
             var getProduct = _productManager.GetProductByID(input.Id);
             GetProductOutput product = Mapper.Map<Product, GetProductOutput>(getProduct);
             return product;
         }
 
-        public IEnumerable<GetProductOutput> ListAll()
+        public IEnumerable<GetProductOutput> GetAll()
         {
             var getAll = _productManager.GetAllList().ToList();
             List<GetProductOutput> products = Mapper.Map<List <Product>, List <GetProductOutput>>(getAll);

@@ -5,15 +5,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 
 namespace SoiticTest.Products
 {
     public interface IProductAppService:IApplicationService
     {
-        IEnumerable<GetProductOutput> ListAll();
+        [HttpGet]
+        IEnumerable<GetProductOutput> GetAll();
+
+        [HttpPost]
         Task Create(CreateProductInput input);
+
+        [HttpPut]
         void Update(UpdateProductInput input);
+
+        [HttpDelete]
         void Delete(DeleteProductInput input);
-        GetProductOutput GetProductById(GetProductInput input);
+
+        [HttpGet]
+        GetProductOutput GetById(GetProductInput input);
     }
 }

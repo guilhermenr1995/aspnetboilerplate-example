@@ -17,8 +17,6 @@ namespace SoiticTest.Models
             this.Providers = new HashSet<Provider>();
         }
 
-        public int ProductId { get; set; }
-
         /* nome do produto, descrição, marca, fornecedores, 
          * data de entrada do produto no estoque, data de validade, 
          * valor do produto e quantidade em estoque.
@@ -41,10 +39,12 @@ namespace SoiticTest.Models
         public virtual ICollection<Provider> Providers { get; set; }
 
         [Required]
+        [Column(TypeName = "DateTime2")]
         [Display(Name = "Data de entrada no estoque")]
         public DateTime EntryDate { get; set; }
 
         [Required]
+        [Column(TypeName = "DateTime2")]
         [Display(Name = "Data de validade")]
         public DateTime ExpirationDate { get; set; }
 

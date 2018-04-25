@@ -4,7 +4,10 @@ using System.Web.Http;
 using Abp.Application.Services;
 using Abp.Configuration.Startup;
 using Abp.Modules;
+using Abp.Web;
 using Abp.WebApi;
+using SoiticTest.Products;
+using SoiticTest.Providers;
 using Swashbuckle.Application;
 
 namespace SoiticTest.Api
@@ -17,8 +20,8 @@ namespace SoiticTest.Api
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
 
             Configuration.Modules.AbpWebApi().DynamicApiControllerBuilder
-                .ForAll<IApplicationService>(typeof(SoiticTestApplicationModule).Assembly, "app")
-                .Build();
+            .ForAll<IApplicationService>(Assembly.GetAssembly(typeof(SoiticTestApplicationModule)), "app")
+            .Build();
 
             Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
             Configuration.Modules.AbpWeb().AntiForgery.IsEnabled = false;

@@ -17,8 +17,6 @@ namespace SoiticTest.Models
             this.Products = new HashSet<Product>();
         }
 
-        public int ProviderId { get; set; }
-
         /* nome completo, endereço, telefone e CPF */
 
         [Required]

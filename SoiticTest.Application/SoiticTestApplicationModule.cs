@@ -31,9 +31,9 @@ namespace SoiticTest
 
 
                 #region Products
-                cfg.CreateMap<CreateProductInput, Provider>().ReverseMap();
-                cfg.CreateMap<UpdateProductInput, Provider>().ReverseMap();
-                cfg.CreateMap<DeleteProductInput, Provider>().ReverseMap();
+                cfg.CreateMap<CreateProductInput, Product>().ReverseMap();
+                cfg.CreateMap<UpdateProductInput, Product>().ReverseMap();
+                cfg.CreateMap<DeleteProductInput, Product>().ReverseMap();
                 #endregion
             });
         }
@@ -57,9 +57,6 @@ namespace SoiticTest
 
                 cfg.CreateMap<CreateUserDto, User>();
                 cfg.CreateMap<CreateUserDto, User>().ForMember(x => x.Roles, opt => opt.Ignore());
-
-                //Provider
-                cfg.CreateMap<CreateProviderInput, Provider>().ReverseMap();
             });
         }
     }

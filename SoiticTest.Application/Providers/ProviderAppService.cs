@@ -30,14 +30,14 @@ namespace SoiticTest.Providers
             _providerManager.Delete(input.Id);
         }
 
-        public GetProviderOutput GetProviderById(GetProviderInput input)
+        public GetProviderOutput GetById(GetProviderInput input)
         {
             var getProvider = _providerManager.GetProviderByID(input.Id);
             GetProviderOutput provider = Mapper.Map<Provider, GetProviderOutput>(getProvider);
             return provider;
         }
 
-        public IEnumerable<GetProviderOutput> ListAll()
+        public IEnumerable<GetProviderOutput> GetAll()
         {
             var getAll = _providerManager.GetAllList().ToList();
             List<GetProviderOutput> providers = Mapper.Map<List<Provider>, List<GetProviderOutput>>(getAll);

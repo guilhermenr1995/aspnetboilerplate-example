@@ -157,3 +157,1075 @@ DEBUG 2018-04-24 12:01:13,562 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2018-04-24 12:01:13,564 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
 DEBUG 2018-04-24 12:01:31,665 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"52b63155-ee43-4c63-ae5e-a9096e189da7","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-24T12:01:31.6521887-03:00","Properties":{}}
 DEBUG 2018-04-24 12:01:31,762 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 52b63155-ee43-4c63-ae5e-a9096e189da7
+DEBUG 2018-04-25 10:18:25,078 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:18:25,110 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:18:25,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,121 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:25,127 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:18:25,641 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:18:25,641 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:18:25,641 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:18:25,641 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:18:26,163 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:18:32,345 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:18:32,462 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:18:32,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:18:32,508 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:18:32,526 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:18:32,700 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:18:32,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:18:32,802 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:18:32,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:18:32,808 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:18:32,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:18:32,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:18:32,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:18:32,809 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:18:32,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:18:35,294 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:18:35,295 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:18:35,296 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:18:35,297 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:18:35,298 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:18:35,299 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:18:35,301 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:18:35,302 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:18:58,942 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"133ae197-dc79-4bb3-9ed1-6ae1a9d77f38","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:18:58.9291991-03:00","Properties":{}}
+DEBUG 2018-04-25 10:18:59,002 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 133ae197-dc79-4bb3-9ed1-6ae1a9d77f38
+DEBUG 2018-04-25 10:19:26,547 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 133ae197-dc79-4bb3-9ed1-6ae1a9d77f38
+DEBUG 2018-04-25 10:25:40,533 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:25:40,548 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:25:40,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:40,575 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:25:40,983 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:25:40,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:25:40,984 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:25:40,984 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:25:41,524 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:25:46,796 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:25:46,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:25:46,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:25:46,892 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:25:46,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:25:47,054 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:25:47,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:25:47,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:25:47,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:25:47,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:25:47,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:25:47,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:25:47,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:25:49,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:25:49,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:25:49,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:25:49,569 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:25:49,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:25:49,572 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:25:49,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:25:49,574 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:26:06,332 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3fa635a2-70c2-4a48-bf16-a3bc267075b7","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:26:06.3242179-03:00","Properties":{}}
+DEBUG 2018-04-25 10:26:06,376 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3fa635a2-70c2-4a48-bf16-a3bc267075b7
+DEBUG 2018-04-25 10:26:14,198 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3fa635a2-70c2-4a48-bf16-a3bc267075b7
+WARN  2018-04-25 10:31:35,884 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:31:35,884 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 10:32:48,309 [38   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:32:48,309 [38   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 10:35:27,216 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:35:28,223 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:35:28,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:28,265 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:35:29,497 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:35:29,497 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:35:29,497 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:35:29,497 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:35:30,085 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:35:32,022 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:35:32,104 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:35:32,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:35:32,152 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:35:32,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:35:32,353 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:35:32,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:35:32,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:35:32,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:35:32,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:35:32,448 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:35:32,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:35:32,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:35:32,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:35:35,032 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:35:35,033 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:35:35,035 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:35:35,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:35:35,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:35:35,039 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:35:35,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:35:35,041 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:35:52,296 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c0b1328c-3037-407d-b5b4-dd2a4d32e3c5","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:35:52.2872362-03:00","Properties":{}}
+DEBUG 2018-04-25 10:35:52,355 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c0b1328c-3037-407d-b5b4-dd2a4d32e3c5
+DEBUG 2018-04-25 10:35:58,617 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c0b1328c-3037-407d-b5b4-dd2a4d32e3c5
+WARN  2018-04-25 10:36:39,169 [8    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:36:39,169 [8    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 10:36:58,951 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:36:58,951 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 10:43:23,662 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:43:23,691 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:43:23,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,712 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,713 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,716 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:23,724 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:43:24,175 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:43:24,176 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:43:24,176 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:43:24,176 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:43:24,771 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:43:29,209 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:43:29,378 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:43:29,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:43:29,437 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:43:29,452 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:43:29,605 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:43:29,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:43:29,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:43:29,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:43:29,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:43:29,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:43:29,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:43:29,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:43:29,719 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:43:32,827 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:43:32,829 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:43:32,830 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:43:32,832 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:43:32,833 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:43:32,834 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:43:32,835 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:43:32,837 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:43:54,497 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"845583ee-26de-46a6-888c-0d2b4ae38cb9","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:43:54.4812984-03:00","Properties":{}}
+DEBUG 2018-04-25 10:43:55,152 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 845583ee-26de-46a6-888c-0d2b4ae38cb9
+DEBUG 2018-04-25 10:44:09,833 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 845583ee-26de-46a6-888c-0d2b4ae38cb9
+WARN  2018-04-25 10:44:43,894 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:44:43,894 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 10:45:30,569 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:45:31,198 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:45:31,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:31,237 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:45:32,208 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:45:32,208 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:45:32,208 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:45:32,208 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:45:32,944 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:45:34,788 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:45:34,861 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:45:34,893 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:45:34,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:45:34,920 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:45:35,099 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:45:35,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:45:35,254 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:45:35,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:45:35,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:45:35,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:45:35,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:45:35,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:45:35,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:45:35,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:45:35,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:45:35,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:45:35,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:45:35,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:45:35,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:45:38,129 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:45:38,131 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:45:38,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:45:38,135 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:45:38,139 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:45:38,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:45:38,143 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:45:38,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:45:55,962 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a18f554d-2a81-43ee-8558-149e4884df5f","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:45:55.9541662-03:00","Properties":{}}
+DEBUG 2018-04-25 10:45:56,020 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a18f554d-2a81-43ee-8558-149e4884df5f
+DEBUG 2018-04-25 10:46:14,380 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a18f554d-2a81-43ee-8558-149e4884df5f
+WARN  2018-04-25 10:46:25,884 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:46:25,884 [16   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 10:47:51,004 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:47:51,022 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:47:51,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,034 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:51,045 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:47:51,417 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:47:51,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:47:51,417 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:47:51,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:47:51,864 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:47:55,095 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:47:55,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:47:55,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:47:55,204 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:47:55,217 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:47:55,340 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:47:55,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:47:55,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:47:55,439 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:47:55,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:47:55,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:47:55,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:47:55,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:47:55,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:47:57,781 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:47:57,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:47:57,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:47:57,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:47:57,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:47:57,789 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:47:57,790 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:47:57,791 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:48:13,242 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5c27feb7-3e8f-4782-a980-f26d4a554b0e","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:48:13.2270421-03:00","Properties":{}}
+DEBUG 2018-04-25 10:48:13,322 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5c27feb7-3e8f-4782-a980-f26d4a554b0e
+DEBUG 2018-04-25 10:48:17,916 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5c27feb7-3e8f-4782-a980-f26d4a554b0e
+WARN  2018-04-25 10:48:31,505 [6    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:48:31,506 [6    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 10:50:17,033 [22   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:50:17,033 [22   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 10:51:48,656 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:51:49,326 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:51:49,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,345 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:49,354 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:51:50,187 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:51:50,187 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:51:50,187 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:51:50,187 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:51:50,669 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:51:51,920 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:51:51,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:51:52,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:51:52,027 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:51:52,050 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:51:52,166 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:51:52,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:51:52,273 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:51:52,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:51:52,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:51:52,279 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:51:54,781 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:51:54,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:51:54,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:51:54,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:51:54,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:51:54,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:51:54,789 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:51:54,790 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:52:14,487 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84eedf73-79b3-4950-add0-9a785a1ff5ef","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:52:14.4720685-03:00","Properties":{}}
+DEBUG 2018-04-25 10:52:14,556 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84eedf73-79b3-4950-add0-9a785a1ff5ef
+DEBUG 2018-04-25 10:55:27,855 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 10:55:28,449 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 10:55:28,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,461 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,462 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,463 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,464 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:28,467 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 10:55:29,250 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:55:29,250 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:55:29,250 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:55:29,250 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 10:55:29,692 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 10:55:30,924 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 10:55:31,000 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 10:55:31,026 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 10:55:31,039 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 10:55:31,050 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 10:55:31,180 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 10:55:31,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 10:55:31,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 10:55:31,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 10:55:31,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 10:55:31,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 10:55:33,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 10:55:33,624 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 10:55:33,627 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 10:55:33,629 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 10:55:33,631 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 10:55:33,633 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 10:55:33,639 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 10:55:33,642 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 10:55:51,630 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0c88626f-3c89-460e-bdc9-584d4631259a","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T10:55:51.6089695-03:00","Properties":{}}
+DEBUG 2018-04-25 10:55:51,749 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0c88626f-3c89-460e-bdc9-584d4631259a
+DEBUG 2018-04-25 10:55:57,920 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0c88626f-3c89-460e-bdc9-584d4631259a
+WARN  2018-04-25 10:56:14,493 [15   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 10:56:14,493 [15   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 11:02:19,830 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 11:02:19,874 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 11:02:19,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:19,909 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 11:02:20,380 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:02:20,380 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:02:20,380 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:02:20,380 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:02:20,966 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:02:25,076 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 11:02:25,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 11:02:25,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 11:02:25,210 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 11:02:25,230 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 11:02:25,387 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 11:02:25,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 11:02:25,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 11:02:25,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 11:02:25,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 11:02:25,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 11:02:28,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 11:02:28,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 11:02:28,479 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 11:02:28,480 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 11:02:28,481 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 11:02:28,482 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 11:02:28,484 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 11:02:28,487 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+WARN  2018-04-25 11:02:41,766 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2018-04-25 11:03:57,013 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2812f688-5682-45d8-bc30-9039d7440bee","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:03:56.9861767-03:00","Properties":{}}
+DEBUG 2018-04-25 11:03:57,175 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2812f688-5682-45d8-bc30-9039d7440bee
+DEBUG 2018-04-25 11:04:23,630 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2812f688-5682-45d8-bc30-9039d7440bee
+WARN  2018-04-25 11:04:45,090 [6    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:04:45,090 [6    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 11:05:57,531 [19   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:05:57,531 [19   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 11:06:38,189 [19   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:06:38,190 [19   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 11:07:44,900 [21   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:07:44,900 [21   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 11:07:53,373 [29   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:07:53,373 [29   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 11:08:39,507 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 11:08:40,156 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 11:08:40,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,172 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,173 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:40,177 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 11:08:41,032 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:08:41,032 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:08:41,032 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:08:41,032 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:08:41,563 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:08:43,036 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 11:08:43,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 11:08:43,184 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 11:08:43,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 11:08:43,210 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 11:08:43,352 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 11:08:43,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 11:08:43,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 11:08:43,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 11:08:43,518 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 11:08:43,520 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 11:08:43,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 11:08:43,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 11:08:43,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 11:08:46,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 11:08:46,239 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 11:08:46,240 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 11:08:46,241 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 11:08:46,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 11:08:46,244 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 11:08:46,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 11:08:46,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 11:09:07,771 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1dca5ef3-19eb-4bda-a8e1-33a6a6d00998","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:09:07.763015-03:00","Properties":{}}
+DEBUG 2018-04-25 11:09:07,817 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1dca5ef3-19eb-4bda-a8e1-33a6a6d00998
+DEBUG 2018-04-25 11:10:47,621 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1dca5ef3-19eb-4bda-a8e1-33a6a6d00998
+WARN  2018-04-25 11:11:13,696 [13   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:11:13,696 [13   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 11:17:49,398 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 11:17:49,417 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 11:17:49,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,433 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,434 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,435 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,436 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:49,440 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 11:17:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:17:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:17:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:17:49,772 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:17:50,243 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:17:53,254 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 11:17:53,329 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 11:17:53,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 11:17:53,360 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 11:17:53,370 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 11:17:53,507 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 11:17:53,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 11:17:53,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 11:17:53,578 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 11:17:53,578 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 11:17:53,578 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 11:17:53,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 11:17:55,897 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 11:17:55,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 11:17:55,899 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 11:17:55,900 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 11:17:55,901 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 11:17:55,903 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 11:17:55,904 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 11:17:55,905 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 11:18:18,736 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c04e5fe8-a6bb-4b83-90f1-8d6ad3a6197f","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:18:18.7244533-03:00","Properties":{}}
+DEBUG 2018-04-25 11:18:18,810 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c04e5fe8-a6bb-4b83-90f1-8d6ad3a6197f
+DEBUG 2018-04-25 11:20:22,688 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c04e5fe8-a6bb-4b83-90f1-8d6ad3a6197f
+WARN  2018-04-25 11:21:17,397 [20   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:21:17,397 [20   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 11:21:57,333 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ae325545-13d5-4d23-a6e6-25c4c805729b","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:21:57.3335098-03:00","Properties":{}}
+DEBUG 2018-04-25 11:21:57,347 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ae325545-13d5-4d23-a6e6-25c4c805729b
+DEBUG 2018-04-25 11:22:43,762 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ae325545-13d5-4d23-a6e6-25c4c805729b
+DEBUG 2018-04-25 11:22:51,711 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5e642488-0b04-445f-a689-e2f021207d15","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:22:51.7119178-03:00","Properties":{}}
+DEBUG 2018-04-25 11:22:51,718 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5e642488-0b04-445f-a689-e2f021207d15
+WARN  2018-04-25 11:23:20,521 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'SoiticTest'!
+WARN  2018-04-25 11:23:52,643 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:23:52,643 [5    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 11:35:02,103 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5e642488-0b04-445f-a689-e2f021207d15
+DEBUG 2018-04-25 11:35:06,505 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"5e642488-0b04-445f-a689-e2f021207d15","IpAddress":null,"TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:35:06.5041993-03:00","Properties":{}}
+DEBUG 2018-04-25 11:35:06,528 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b148ba9e-ead8-40f6-a956-4dac247efd96","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:35:06.5277144-03:00","Properties":{}}
+ERROR 2018-04-25 11:35:06,606 [39   ] Test.EntityFramework.SoiticTestDbContext - There are some validation errors while saving changes in EntityFramework:
+ERROR 2018-04-25 11:35:06,607 [39   ] Test.EntityFramework.SoiticTestDbContext -  - Name: The Nome completo field is required.
+ERROR 2018-04-25 11:35:06,820 [39   ] nHandling.AbpApiExceptionFilterAttribute - Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFramework.AbpDbContext.<SaveChangesAsync>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.<SaveChangesInDbContextAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.<SaveChangesAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFramework.Uow.EfUnitOfWork.<CompleteUowAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkBase.<CompleteAsync>d__57.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.<>c__DisplayClass6_0.<<PerformAsyncUow>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinally>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinally>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-04-25 11:35:42,156 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5e642488-0b04-445f-a689-e2f021207d15
+DEBUG 2018-04-25 11:44:24,072 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 11:44:24,107 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 11:44:24,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,139 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:24,147 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 11:44:24,888 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:44:24,888 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:44:24,888 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:44:24,888 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 11:44:25,785 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 11:44:32,945 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 11:44:33,138 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 11:44:33,189 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 11:44:33,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 11:44:33,236 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 11:44:33,556 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 11:44:33,698 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 11:44:33,698 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 11:44:33,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 11:44:33,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 11:44:33,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 11:44:33,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 11:44:33,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 11:44:33,714 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 11:44:45,674 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 11:44:45,676 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 11:44:45,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 11:44:45,684 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 11:44:45,687 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 11:44:45,689 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 11:44:45,692 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 11:44:45,697 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 11:45:09,017 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"923b3741-058a-47fb-a561-597493701336","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T11:45:08.9973308-03:00","Properties":{}}
+DEBUG 2018-04-25 11:45:09,205 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 923b3741-058a-47fb-a561-597493701336
+DEBUG 2018-04-25 11:46:08,886 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 923b3741-058a-47fb-a561-597493701336
+WARN  2018-04-25 11:46:35,006 [22   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:46:35,007 [22   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 11:56:32,261 [38   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 11:56:32,261 [38   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+WARN  2018-04-25 12:04:21,266 [74   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 12:04:21,266 [74   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/account/Register
+DEBUG 2018-04-25 12:10:20,548 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 12:10:20,576 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 12:10:20,598 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,602 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,604 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:20,614 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 12:10:21,427 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:10:21,428 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:10:21,428 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:10:21,428 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:10:22,436 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:10:31,537 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 12:10:31,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 12:10:31,790 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 12:10:31,810 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 12:10:31,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 12:10:31,977 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 12:10:32,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 12:10:32,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 12:10:32,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 12:10:32,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 12:10:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 12:10:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 12:10:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 12:10:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 12:10:32,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 12:10:32,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 12:10:32,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 12:10:32,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 12:10:32,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 12:10:32,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 12:10:35,517 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 12:10:35,519 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 12:10:35,521 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 12:10:35,523 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 12:10:35,525 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 12:10:35,527 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 12:10:35,528 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 12:10:35,532 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 12:10:54,884 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"14109e08-eec4-49c3-a45d-c58cfb761fac","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T12:10:54.869018-03:00","Properties":{}}
+DEBUG 2018-04-25 12:10:54,982 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 14109e08-eec4-49c3-a45d-c58cfb761fac
+DEBUG 2018-04-25 12:11:11,735 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 14109e08-eec4-49c3-a45d-c58cfb761fac
+WARN  2018-04-25 12:11:33,796 [7    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 12:11:33,796 [7    ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 12:15:39,607 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 12:15:39,632 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 12:15:39,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:39,670 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 12:15:40,229 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:15:40,229 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:15:40,229 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:15:40,229 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:15:41,069 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:15:47,225 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 12:15:47,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 12:15:47,449 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 12:15:47,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 12:15:47,494 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 12:15:47,681 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 12:15:47,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 12:15:47,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 12:15:47,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 12:15:47,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 12:15:47,847 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 12:15:47,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 12:15:47,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 12:15:53,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 12:15:53,264 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 12:15:53,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 12:15:53,273 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 12:15:53,275 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 12:15:53,282 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 12:15:53,285 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 12:15:53,288 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 12:16:25,488 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f191779c-b0b5-4cb3-842d-13cd9623319b","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T12:16:25.4651552-03:00","Properties":{}}
+DEBUG 2018-04-25 12:16:25,677 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f191779c-b0b5-4cb3-842d-13cd9623319b
+DEBUG 2018-04-25 12:16:36,608 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f191779c-b0b5-4cb3-842d-13cd9623319b
+WARN  2018-04-25 12:16:50,656 [24   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Empty or invalid anti forgery header token.
+WARN  2018-04-25 12:16:50,657 [24   ] rity.AntiForgery.AbpAntiForgeryApiFilter - Requested URI: http://localhost:6234/api/services/app/provider/Create
+DEBUG 2018-04-25 12:41:44,831 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 12:41:44,865 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 12:41:44,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:44,909 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 12:41:45,784 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:41:45,784 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:41:45,785 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:41:45,785 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:41:47,016 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:41:54,827 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 12:41:55,006 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 12:41:55,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 12:41:55,110 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 12:41:55,135 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 12:41:55,413 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 12:41:55,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 12:41:55,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 12:41:55,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 12:41:55,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 12:41:55,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 12:41:55,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 12:41:55,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 12:41:55,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 12:42:02,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 12:42:02,267 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 12:42:02,270 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 12:42:02,273 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 12:42:02,276 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 12:42:02,283 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 12:42:02,285 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 12:42:02,292 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 12:42:35,962 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a851b1be-9f67-4208-91a7-3882351e220e","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T12:42:35.8816943-03:00","Properties":{}}
+DEBUG 2018-04-25 12:42:36,540 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a851b1be-9f67-4208-91a7-3882351e220e
+DEBUG 2018-04-25 12:44:25,260 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a851b1be-9f67-4208-91a7-3882351e220e
+DEBUG 2018-04-25 12:57:18,710 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-25 12:57:18,768 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-04-25 12:57:18,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Web.SoiticTestWebModule, SoiticTest.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,790 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestDataModule, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,790 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestCoreModule, SoiticTest.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.SoiticTestApplicationModule, SoiticTest.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SoiticTest.Api.SoiticTestWebApiModule, SoiticTest.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:18,809 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-04-25 12:57:19,603 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:57:19,603 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:57:19,603 [1    ] o.Configuration.LanguageManagementConfig - Converted SoiticTest (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:57:19,603 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-25 12:57:20,410 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SoiticTest.EntityFramework.SoiticTestDbContext, SoiticTest.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-25 12:57:25,012 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-25 12:57:25,129 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-25 12:57:25,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-25 12:57:25,170 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoiticTest
+DEBUG 2018-04-25 12:57:25,181 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-25 12:57:25,363 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-25 12:57:25,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-25 12:57:25,507 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-25 12:57:25,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-25 12:57:25,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.CreateUserDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UpdateUserDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Users.Dto.UserDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.PermissionDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Roles.Dto.RoleDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-25 12:57:25,513 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-04-25 12:57:25,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-25 12:57:25,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-04-25 12:57:25,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SoiticTest.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-04-25 12:57:29,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-04-25 12:57:29,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-04-25 12:57:29,043 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-04-25 12:57:29,046 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-04-25 12:57:29,048 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-04-25 12:57:29,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-04-25 12:57:29,061 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Providers.IProviderAppService' with service name 'app/provider'.
+DEBUG 2018-04-25 12:57:29,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SoiticTest.Products.IProductAppService' with service name 'app/product'.
+DEBUG 2018-04-25 12:57:58,194 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fb69ba2e-2ff5-4d1a-bf7a-dd1226317be5","IpAddress":"192.168.0.103","TenantId":null,"UserId":1,"ConnectTime":"2018-04-25T12:57:58.1867975-03:00","Properties":{}}
+DEBUG 2018-04-25 12:57:58,286 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fb69ba2e-2ff5-4d1a-bf7a-dd1226317be5
+DEBUG 2018-04-25 13:02:17,298 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fb69ba2e-2ff5-4d1a-bf7a-dd1226317be5

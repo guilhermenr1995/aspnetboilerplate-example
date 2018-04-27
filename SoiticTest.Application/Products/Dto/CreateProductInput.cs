@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoiticTest.Providers.Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,6 @@ namespace SoiticTest.Products.DTO
         public decimal Value { get; set; }
         public int Stock { get; set; }
         public DateTime CreationTime { get; set; }
+        public ICollection<CreateProviderInput> Providers { get; set; }
     }
 }

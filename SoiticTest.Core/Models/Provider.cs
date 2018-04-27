@@ -29,11 +29,11 @@ namespace SoiticTest.Models
         public string Address { get; set; }
 
         [Display(Name = "Telefone")]
-        [StringLength(15, ErrorMessage = "No máximo 15 caracteres")]
+        [StringLength(20, ErrorMessage = "No máximo 20 caracteres")]
         public string Phone { get; set; }
 
         [Display(Name = "CPF")]
-        [StringLength(14, ErrorMessage = "No máximo 14 caracteres")]
+        [StringLength(20, ErrorMessage = "No máximo 20 caracteres")]
         public string CPF { get; set; }
 
         [Display(Name = "Produtos")]

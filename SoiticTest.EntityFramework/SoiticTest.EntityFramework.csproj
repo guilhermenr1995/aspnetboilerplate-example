@@ -227,6 +227,10 @@
     <Compile Include="Migrations\201804252001059_database_fix1.Designer.cs">
       <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804262255266_databasefix2.cs" />
+    <Compile Include="Migrations\201804262255266_databasefix2.Designer.cs">
+      <DependentUpon>201804262255266_databasefix2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="SoiticTestDataModule.cs" />
@@ -270,6 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804252001059_database_fix1.resx">
       <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804262255266_databasefix2.resx">
+      <DependentUpon>201804262255266_databasefix2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

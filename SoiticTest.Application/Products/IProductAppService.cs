@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services;
 using SoiticTest.Products.DTO;
+using SoiticTest.Providers.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,10 +21,12 @@ namespace SoiticTest.Products
         [HttpPut]
         void Update(UpdateProductInput input);
 
-        [HttpDelete]
+        [HttpPost]
         void Delete(DeleteProductInput input);
 
         [HttpGet]
         GetProductOutput GetById(GetProductInput input);
+
+        IEnumerable<GetProviderOutput> GetProviders();
     }
 }

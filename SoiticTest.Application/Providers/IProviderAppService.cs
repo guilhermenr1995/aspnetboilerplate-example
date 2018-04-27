@@ -20,7 +20,7 @@ namespace SoiticTest.Providers
         [HttpPut]
         void Update(UpdateProviderInput input);
 
-        [HttpDelete]
+        [HttpPost]
         void Delete(DeleteProviderInput input);
 
         [HttpGet]

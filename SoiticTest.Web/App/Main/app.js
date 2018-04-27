@@ -30,36 +30,18 @@
                 $urlRouterProvider.otherwise('/users');
             }
 
-            if (abp.auth.hasPermission('Pages.Roles')) {
-                $stateProvider
-                    .state('roles', {
-                        url: '/roles',
-                        templateUrl: '/App/Main/views/roles/index.cshtml',
-                        menu: 'Roles' //Matches to name of 'Tenants' menu in SoiticTestNavigationProvider
-                    });
-                $urlRouterProvider.otherwise('/roles');
-            }
-
-            if (abp.auth.hasPermission('Pages.Tenants')) {
-                $stateProvider
-                    .state('tenants', {
-                        url: '/tenants',
-                        templateUrl: '/App/Main/views/tenants/index.cshtml',
-                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoiticTestNavigationProvider
-                    });
-                $urlRouterProvider.otherwise('/tenants');
-            }
+            $stateProvider
+                .state('products', {
+                    url: '/products',
+                    templateUrl: '/App/Main/views/products/index.cshtml',
+                    menu: 'Products' //Matches to name of 'Products' menu in SoiticTestNavigationProvider
+                });
 
             $stateProvider
-                .state('home', {
-                    url: '/',
-                    templateUrl: '/App/Main/views/home/home.cshtml',
-                    menu: 'Home' //Matches to name of 'Home' menu in SoiticTestNavigationProvider
-                })
-                .state('about', {
-                    url: '/about',
-                    templateUrl: '/App/Main/views/about/about.cshtml',
-                    menu: 'About' //Matches to name of 'About' menu in SoiticTestNavigationProvider
+                .state('providers', {
+                    url: '/providers',
+                    templateUrl: '/App/Main/views/providers/index.cshtml',
+                    menu: 'Providers' //Matches to name of 'Providers' menu in SoiticTestNavigationProvider
                 });
         }
     ]);

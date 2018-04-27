@@ -4,7 +4,7 @@
     <text name="HomePage" value="Página Inicial" />
     <text name="About" value="Sobre" />
     <text name="WellcomeMessage" value="Bem Vindo ao SoiticTest!" />
-    
+
     <text name="FormIsNotValidMessage" value="Formulário não é válido. Por favor, verifique e corrija os erros." />
     <text name="TenantNameCanNotBeEmpty" value="Tenant não pode estar vazio" />
 
@@ -42,6 +42,28 @@
     <text name="TenantSelection" value="Seleção de Tenant" />
     <text name="TenantSelection_Detail" value="Por favor selecione um dos seguintes tenants." />
     <text name="Logout" value="Sair" />
+    <text name="Delete" value="Excluir" />
+    <text name="Providers" value="Fornecedores" />
+    <text name="Products" value="Produtos" />
+    <text name="FullName" value="Nome completo" />
+    <text name="Address" value="Endereço" />
+    <text name="Phone" value="Telefone" />
+    <text name="CPF" value="CPF" />
+    <text name="IsActive" value="Ativo?" />
+    <text name="EditRole" value="Editar papel" />
+    <text name="EditUser" value="Editar usuário" />
+    <text name="Edit" value="Edit" />
+    <text name="Actions" value="Ação" />
+    <text name="Users" value="Usuários" />
+
+    <text name="Description" value="Descrição" />
+    <text name="Brand" value="Marca" />
+    <text name="EntryDate" value="Data de entrada" />
+    <text name="ExpirationDate" value="Data de validade" />
+    <text name="Value" value="Valor" />
+    <text name="Stock" value="Estoque" />
+
+
 
   </texts>
 </localizationDictionary>

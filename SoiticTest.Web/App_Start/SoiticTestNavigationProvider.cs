@@ -17,44 +17,28 @@ namespace SoiticTest.Web
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
-                        "Home",
-                        new LocalizableString("HomePage", SoiticTestConsts.LocalizationSourceName),
-                        url: "#/",
-                        icon: "fa fa-home",
-                        requiresAuthentication: true
-                        )
-                ).AddItem(
+                        "Providers",
+                        L("Providers"),
+                        url: "#/providers",
+                        icon: "fa fa-people-carry"
+                    )
+                )
+                .AddItem(
                     new MenuItemDefinition(
-                        "Tenants",
-                        L("Tenants"),
-                        url: "#tenants",
-                        icon: "fa fa-globe",
-                        requiredPermissionName: PermissionNames.Pages_Tenants
-                        )
-                ).AddItem(
+                        "Products",
+                        L("Products"),
+                        url: "#/products",
+                        icon: "fa fa-archive"
+                    )
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         "Users",
                         L("Users"),
                         url: "#users",
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
-                        )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
-                        url: "#users",
-                        icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Roles
                     )
-                )
-                .AddItem(
-                    new MenuItemDefinition(
-                        "About",
-                        new LocalizableString("About", SoiticTestConsts.LocalizationSourceName),
-                        url: "#/about",
-                        icon: "fa fa-info"
-                        )
                 );
         }
 

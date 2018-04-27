@@ -22,7 +22,7 @@ namespace SoiticTest.Web
                     .Include("~/css/materialize.css", new CssRewriteUrlTransform())
                     .Include("~/css/style.css", new CssRewriteUrlTransform())
                     .Include("~/Views/Account/_Layout.css", new CssRewriteUrlTransform())
-            );
+                    );
 
             bundles.Add(
                 new ScriptBundle("~/Bundles/account-vendor/js/bottom")
@@ -108,6 +108,18 @@ namespace SoiticTest.Web
                         "~/js/main.js"
                     )
                 );
+
+            //~/Bundles/inputmask
+            bundles.Add(
+                new ScriptBundle("~/Bundles/inputmask")
+                .Include(
+                    "~/Scripts/Inputmask/inputmask.js",
+                    "~/Scripts/Inputmask/jquery.inputmask.js",
+                    "~/Scripts/Inputmask/inputmask.extensions.js",
+                    "~/Scripts/Inputmask/inputmask.date.extensions.js",
+                    "~/Scripts/Inputmask/inputmask.numeric.extensions.js"
+                )
+            );
 
             //Home-Index Bundles
             bundles.Add(

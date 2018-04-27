@@ -23,7 +23,7 @@ namespace SoiticTest.Models
             var product = _repositoryProduct.FirstOrDefault(x => x.Id == entity.Id);
             if (product != null)
             {
-                throw new UserFriendlyException("Item já existente!");
+                return product;
             }
             else
             {

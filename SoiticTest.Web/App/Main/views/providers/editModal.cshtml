@@ -1,0 +1,66 @@
+﻿<form id="frm_edit_provider" name="providerEditForm" novalidate>
+
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>@L("Providers")</span>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line focused">
+                        <input id="providername" type="text" name="name" placeholder=" " ng-model="vm.provider.name" required maxlength="200" minlength="2" class="validate form-control">
+                        <label for="providername" class="form-label">@L("Name")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line focused"">
+                        <input id="provideraddress" type="text" name="address" placeholder=" " ng-model="vm.provider.address" required maxlength="300" minlength="2" class="validate form-control">
+                        <label for="provideraddress" class="form-label">@L("Address")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line focused"">
+                        <input id="providerphone" type="text" name="phone" placeholder=" " ng-model="vm.provider.phone" required maxlength="20" minlength="2" class="validate form-control">
+                        <label for="providerphone" class="form-label">@L("Phone")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line focused"">
+                        <input id="providercpf" type="text" name="cpf" placeholder=" " ng-model="vm.provider.CPF" required maxlength="20" minlength="2" class="validate form-control">
+                        <label for="providercpf" class="form-label">@L("CPF")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="providerCreateForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+
+</form>

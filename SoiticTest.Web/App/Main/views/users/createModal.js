@@ -18,7 +18,7 @@
             }
 
             vm.save = function () {
-                var assingnedRoles = [];
+                var assignedRoles = [];
 
                 for (var i = 0; i < vm.roles.length; i++) {
                     var role = vm.roles[i];
@@ -26,10 +26,10 @@
                         continue;
                     }
 
-                    assingnedRoles.push(role.name);
+                    assignedRoles.push(role.name);
                 }
 
-                vm.user.roleNames = assingnedRoles;
+                vm.user.roleNames = assignedRoles;
                 userService.create(vm.user)
                     .then(function () {
                         abp.notify.info(App.localize('SavedSuccessfully'));

@@ -1,6 +1,9 @@
-﻿
-ASP.NET Boilerplate - Module Zero - Startup Template
-----------------------------------------------------
+﻿Para instalar o projeto, siga os passos:
 
-This project is aimed to be a starter template for ABP and module zero.
-You can create your project on http://www.aspnetboilerplate.com/Templates
+ - Baixe e o insira no diretório desejado.
+ - Com o SQL Server em execução, selecione no **Console de Gerenciador de Pacotes** o projeto **EntityFramework** como padrão, e execute o seguinte código:
+ - `update-database`
+ - Com isso, a base de dados será criada, com o seguinte usuário padrão:
+ - Usuário: **soitic**
+ - Senha: **123qwe**
+ - A documentação da API gerada está disponível em [http://domain.com/swagger](http://domain.com/swagger).

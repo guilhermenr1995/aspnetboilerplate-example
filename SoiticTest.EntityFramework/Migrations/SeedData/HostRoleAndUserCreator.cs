@@ -63,7 +63,7 @@ namespace SoiticTest.Migrations.SeedData
                 adminUserForHost = _context.Users.Add(
                     new User
                     {
-                        UserName = User.AdminUserName,
+                        UserName = "soitic",
                         Name = "System",
                         Surname = "Administrator",
                         EmailAddress = "admin@aspnetboilerplate.com",

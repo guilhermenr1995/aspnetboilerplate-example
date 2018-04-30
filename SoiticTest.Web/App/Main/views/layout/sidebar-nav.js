@@ -8,6 +8,7 @@
             vm.menuItems = [
                 createMenuItem(App.localize("Providers"), "", "person", "providers"),
                 createMenuItem(App.localize("Products"), "", "archive", "products"),
+                createMenuItem(App.localize("Movements"), "", "equalizer", "movements"),
                 createMenuItem(App.localize("Users"), "Pages.Users", "people", "users")
             ];
 

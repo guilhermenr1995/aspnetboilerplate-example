@@ -62,7 +62,7 @@
 
             vm.delete = function (provider) {
                 abp.message.confirm(
-                    "Deseja excluir'" + provider.name + "'?",
+                    "Deseja excluir " + provider.name + "?",
                     function (result) {
                         if (result) {
 

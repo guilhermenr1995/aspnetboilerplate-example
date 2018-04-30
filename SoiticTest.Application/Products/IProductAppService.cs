@@ -1,5 +1,5 @@
 ﻿using Abp.Application.Services;
-using SoiticTest.Products.DTO;
+using SoiticTest.Products.Dto;
 using SoiticTest.Providers.Dto;
 using System;
 using System.Collections.Generic;
@@ -13,20 +13,20 @@ namespace SoiticTest.Products
     public interface IProductAppService:IApplicationService
     {
         [HttpGet]
-        IEnumerable<GetProductOutput> GetAll();
+        IEnumerable<ProductDto> GetAll();
 
         [HttpPost]
-        Task Create(CreateProductInput input);
+        Task Create(ProductDto input);
 
         [HttpPut]
-        void Update(UpdateProductInput input);
+        void Update(ProductDto input);
 
         [HttpPost]
-        void Delete(DeleteProductInput input);
+        void Delete(ProductDto input);
 
         [HttpGet]
-        GetProductOutput GetById(GetProductInput input);
+        ProductDto GetById(ProductDto input);
 
-        IEnumerable<GetProviderOutput> GetProviders();
+        IEnumerable<ProviderDto> GetProviders();
     }
 }

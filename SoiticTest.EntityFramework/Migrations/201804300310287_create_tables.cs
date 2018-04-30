@@ -5,17 +5,41 @@ namespace SoiticTest.Migrations
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.Migrations;
     
-    public partial class creating_tables : DbMigration
+    public partial class create_tables : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.tblMovement",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        PreviousQtd = c.Int(nullable: false),
+                        CurrentQtd = c.Int(nullable: false),
+                        Signal = c.String(nullable: false),
+                        IsDeleted = c.Boolean(nullable: false),
+                        DeleterUserId = c.Long(),
+                        DeletionTime = c.DateTime(),
+                        LastModificationTime = c.DateTime(),
+                        LastModifierUserId = c.Long(),
+                        CreationTime = c.DateTime(nullable: false),
+                        CreatorUserId = c.Long(),
+                        Product_Id = c.Int(nullable: false),
+                    },
+                annotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Movement_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.tblProducts", t => t.Product_Id, cascadeDelete: true)
+                .Index(t => t.Product_Id);
+            
             CreateTable(
                 "dbo.tblProducts",
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        ProductId = c.Int(nullable: false),
-                        Name = c.String(nullable: false, maxLength: 100),
+                        Name = c.String(maxLength: 100),
                         Description = c.String(maxLength: 300),
                         Brand = c.String(maxLength: 60),
                         EntryDate = c.DateTime(nullable: false),
@@ -41,11 +65,10 @@ namespace SoiticTest.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        ProviderId = c.Int(nullable: false),
                         Name = c.String(nullable: false, maxLength: 200),
                         Address = c.String(maxLength: 300),
-                        Phone = c.String(maxLength: 15),
-                        CPF = c.String(maxLength: 14),
+                        Phone = c.String(maxLength: 20),
+                        CPF = c.String(maxLength: 20),
                         IsDeleted = c.Boolean(nullable: false),
                         DeleterUserId = c.Long(),
                         DeletionTime = c.DateTime(),
@@ -77,10 +100,12 @@ namespace SoiticTest.Migrations
         
         public override void Down()
         {
+            DropForeignKey("dbo.tblMovement", "Product_Id", "dbo.tblProducts");
             DropForeignKey("dbo.ProviderProducts", "Product_Id", "dbo.tblProducts");
             DropForeignKey("dbo.ProviderProducts", "Provider_Id", "dbo.tblProviders");
             DropIndex("dbo.ProviderProducts", new[] { "Product_Id" });
             DropIndex("dbo.ProviderProducts", new[] { "Provider_Id" });
+            DropIndex("dbo.tblMovement", new[] { "Product_Id" });
             DropTable("dbo.ProviderProducts");
             DropTable("dbo.tblProviders",
                 removedAnnotations: new Dictionary<string, object>
@@ -91,6 +116,11 @@ namespace SoiticTest.Migrations
                 removedAnnotations: new Dictionary<string, object>
                 {
                     { "DynamicFilter_Product_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                });
+            DropTable("dbo.tblMovement",
+                removedAnnotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Movement_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 });
         }
     }

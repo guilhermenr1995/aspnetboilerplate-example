@@ -22,8 +22,8 @@ namespace SoiticTest.EntityFramework
         }
 
         public DbSet<Models.Product> Products { get; set; }
-
         public DbSet<Models.Provider> Providers { get; set; }
+        public DbSet<Models.Movement> Movements { get; set; }
 
 
         /* NOTE:

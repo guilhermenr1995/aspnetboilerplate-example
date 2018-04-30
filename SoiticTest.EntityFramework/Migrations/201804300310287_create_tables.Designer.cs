@@ -7,13 +7,13 @@ namespace SoiticTest.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class creating_tables : IMigrationMetadata
+    public sealed partial class create_tables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(creating_tables));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(create_tables));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804241732155_creating_tables"; }
+            get { return "201804300310287_create_tables"; }
         }
         
         string IMigrationMetadata.Source

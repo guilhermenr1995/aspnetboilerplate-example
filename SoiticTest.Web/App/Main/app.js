@@ -43,6 +43,13 @@
                     templateUrl: '/App/Main/views/providers/index.cshtml',
                     menu: 'Providers' //Matches to name of 'Providers' menu in SoiticTestNavigationProvider
                 });
+
+            $stateProvider
+                .state('movements', {
+                    url: '/movements',
+                    templateUrl: '/App/Main/views/movements/index.cshtml',
+                    menu: 'Movements' //Matches to name of 'Movements' menu in SoiticTestNavigationProvider
+                });
         }
     ]);
 

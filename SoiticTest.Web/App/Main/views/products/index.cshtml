@@ -35,7 +35,7 @@
                     </thead>
                     <tbody>
                         <tr ng-repeat="product in vm.products">
-                            <td>{{product.name}}</td>
+                            <td ng-class="{'text-danger' : product.stock < 3}">{{product.name}}</td>
                             <td>{{product.description}}</td>
                             <td>{{product.brand}}</td>
                             <td>{{product.entryDate | date:'dd/MM/yyyy HH:mm:ss'}}</td>

@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Reflection;
 using Abp.Authorization;
 using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
@@ -8,7 +9,8 @@ using Abp.Modules;
 using SoiticTest.Authorization.Roles;
 using SoiticTest.Authorization.Users;
 using SoiticTest.Models;
-using SoiticTest.Products.DTO;
+using SoiticTest.Movements.Dto;
+using SoiticTest.Products.Dto;
 using SoiticTest.Providers.Dto;
 using SoiticTest.Roles.Dto;
 using SoiticTest.Users.Dto;
@@ -23,18 +25,7 @@ namespace SoiticTest
             // TODO: Is there somewhere else to store these, with the dto classes
             Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg =>
             {
-                #region Providers
-                cfg.CreateMap<CreateProviderInput, Provider>().ReverseMap();
-                cfg.CreateMap<UpdateProviderInput, Provider>().ReverseMap();
-                cfg.CreateMap<DeleteProviderInput, Provider>().ReverseMap();
-                #endregion
 
-
-                #region Products
-                cfg.CreateMap<CreateProductInput, Product>().ReverseMap();
-                cfg.CreateMap<UpdateProductInput, Product>().ReverseMap();
-                cfg.CreateMap<DeleteProductInput, Product>().ReverseMap();
-                #endregion
             });
         }
 
@@ -57,6 +48,14 @@ namespace SoiticTest
 
                 cfg.CreateMap<CreateUserDto, User>();
                 cfg.CreateMap<CreateUserDto, User>().ForMember(x => x.Roles, opt => opt.Ignore());
+
+                cfg.CreateMap<ProviderDto, Provider>();
+                cfg.CreateMap<ProductDto, Product>();
+
+
+                cfg.CreateMap<Movement, GetMovementDto>();
+                cfg.CreateMap<GetMovementDto, Movement>();
+                
             });
         }
     }

@@ -192,18 +192,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Products\Dto\CreateProductInput.cs" />
-    <Compile Include="Products\Dto\DeleteProductInput.cs" />
-    <Compile Include="Products\Dto\GetProductInput.cs" />
-    <Compile Include="Products\Dto\GetProductOutput.cs" />
-    <Compile Include="Products\Dto\UpdateProductInput.cs" />
+    <Compile Include="Movements\Dto\CreateMovementDto.cs" />
+    <Compile Include="Movements\Dto\GetMovementDto.cs" />
+    <Compile Include="Movements\Dto\MovementDto.cs" />
+    <Compile Include="Movements\IMovementAppService.cs" />
+    <Compile Include="Movements\MovementAppService.cs" />
+    <Compile Include="Products\Dto\ProductDto.cs" />
     <Compile Include="Products\IProductAppService.cs" />
     <Compile Include="Products\ProductAppService.cs" />
-    <Compile Include="Providers\Dto\CreateProviderInput.cs" />
-    <Compile Include="Providers\Dto\DeleteProviderInput.cs" />
-    <Compile Include="Providers\Dto\GetProviderInput.cs" />
-    <Compile Include="Providers\Dto\GetProviderOutput.cs" />
-    <Compile Include="Providers\Dto\UpdateProviderInput.cs" />
+    <Compile Include="Providers\Dto\CreateProviderByProductDto.cs" />
+    <Compile Include="Providers\Dto\ProviderDto.cs" />
     <Compile Include="Providers\IProviderAppService.cs" />
     <Compile Include="Providers\ProviderAppService.cs" />
     <Compile Include="SoiticTestApplicationModule.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SoiticTest.Providers.Dto
 {
-    public class UpdateProviderInput
+    public class ProviderDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

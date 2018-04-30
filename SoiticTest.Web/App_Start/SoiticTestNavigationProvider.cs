@@ -19,16 +19,21 @@ namespace SoiticTest.Web
                     new MenuItemDefinition(
                         "Providers",
                         L("Providers"),
-                        url: "#/providers",
-                        icon: "fa fa-people-carry"
+                        url: "#/providers"
                     )
                 )
                 .AddItem(
                     new MenuItemDefinition(
                         "Products",
                         L("Products"),
-                        url: "#/products",
-                        icon: "fa fa-archive"
+                        url: "#/products"
+                    )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
+                        "Movements",
+                        L("Movements"),
+                        url: "#/movements"
                     )
                 )
                 .AddItem(
@@ -36,7 +41,6 @@ namespace SoiticTest.Web
                         "Users",
                         L("Users"),
                         url: "#users",
-                        icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
                     )
                 );

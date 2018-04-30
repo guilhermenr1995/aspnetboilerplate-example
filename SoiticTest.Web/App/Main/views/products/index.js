@@ -8,6 +8,7 @@
 
             function getProducts() {
                 productService.getAll({}).then(function (result) {
+                    console.log('result', result);
                     vm.products = result.data;
                 });
             }
@@ -30,7 +31,7 @@
             };
 
             vm.openProductEditModal = function (product) {
-                console.log('entrou');
+
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/products/editModal.cshtml',
                     controller: 'app.views.products.editModal as vm',
@@ -55,12 +56,12 @@
 
             vm.delete = function (product) {
                 abp.message.confirm(
-                    "Delete product '" + product.productName + "'?",
+                    "Deletar produto " + product.name + "?",
                     function (result) {
                         if (result) {
                             productService.delete({ id: product.id })
                                 .then(function () {
-                                    abp.notify.info("Excluído: " + product.productName);
+                                    abp.notify.info("Excluído: " + product.name);
                                     getProducts();
                                 });
                         }

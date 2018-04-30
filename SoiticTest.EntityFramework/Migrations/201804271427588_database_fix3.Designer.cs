@@ -7,13 +7,13 @@ namespace SoiticTest.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class database_fix1 : IMigrationMetadata
+    public sealed partial class database_fix3 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(database_fix1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(database_fix3));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804252001059_database_fix1"; }
+            get { return "201804271427588_database_fix3"; }
         }
         
         string IMigrationMetadata.Source

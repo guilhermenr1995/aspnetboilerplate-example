@@ -2,14 +2,16 @@
 using Abp.Domain.Repositories;
 using AutoMapper;
 using SoiticTest.Models;
-using SoiticTest.Products.DTO;
+using SoiticTest.Products.Dto;
 using SoiticTest.Providers;
 using SoiticTest.Providers.Dto;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Castle.Core.Logging;
 
 namespace SoiticTest.Products
 {
@@ -18,6 +20,8 @@ namespace SoiticTest.Products
         private readonly IProductManager _productManager;
         private readonly IRepository<Provider> _providerRepository;
         private readonly ProviderManager _providerManager;
+
+        public new ILogger Logger { get; set; }
 
         public ProductAppService(
             IProductManager productManager,
@@ -28,44 +32,53 @@ namespace SoiticTest.Products
             _productManager = productManager;
             _providerRepository = providerRepository;
             _providerManager = providerManager;
+
+            Logger = NullLogger.Instance;
         }
 
-        public async Task Create(CreateProductInput input)
+        public async Task Create(ProductDto input)
         {
-            Product product = Mapper.Map<CreateProductInput, Product>(input);
+            var product = ObjectMapper.Map<Product>(input);
+
+            product.Providers = new Collection<Provider>();
+
+            foreach (var provider in input.Providers)
+            {
+                product.Providers.Add(Mapper.Map<ProviderDto, Provider>(provider));
+            }
 
             await _productManager.Create(product);
         }
 
-        public void Delete(DeleteProductInput input)
+        public void Delete(ProductDto input)
         {
             _productManager.Delete(input.Id);
         }
 
-        public GetProductOutput GetById(GetProductInput input)
+        public ProductDto GetById(ProductDto input)
         {
             var getProduct = _productManager.GetProductByID(input.Id);
-            GetProductOutput product = Mapper.Map<Product, GetProductOutput>(getProduct);
+            ProductDto product = Mapper.Map<Product, ProductDto>(getProduct);
             return product;
         }
 
-        public IEnumerable<GetProductOutput> GetAll()
+        public IEnumerable<ProductDto> GetAll()
         {
             var getAll = _productManager.GetAllList().ToList();
-            List<GetProductOutput> products = Mapper.Map<List <Product>, List <GetProductOutput>>(getAll);
+            List<ProductDto> products = Mapper.Map<List<Product>, List<ProductDto>>(getAll);
             return products;
         }
 
-        public void Update(UpdateProductInput input)
+        public void Update(ProductDto input)
         {
-            Product product = Mapper.Map<UpdateProductInput, Product>(input);
+            Product product = Mapper.Map<ProductDto, Product>(input);
             _productManager.Update(product);
         }
 
-        public IEnumerable<GetProviderOutput> GetProviders()
+        IEnumerable<ProviderDto> IProductAppService.GetProviders()
         {
             var getAll = _providerManager.GetAllList().ToList();
-            List<GetProviderOutput> providers = Mapper.Map<List<Provider>, List<GetProviderOutput>>(getAll);
+            List<ProviderDto> providers = Mapper.Map<List<Provider>, List<ProviderDto>>(getAll);
             return providers;
         }
     }

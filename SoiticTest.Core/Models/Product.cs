@@ -22,7 +22,6 @@ namespace SoiticTest.Models
          * valor do produto e quantidade em estoque.
         */
 
-        [Required]
         [Display(Name = "Nome do produto")]
         [StringLength(100, ErrorMessage = "No máximo 100 caracteres")]
         public string Name { get; set; }
@@ -39,12 +38,10 @@ namespace SoiticTest.Models
         public virtual ICollection<Provider> Providers { get; set; }
 
         [Required]
-        [Column(TypeName = "DateTime2")]
         [Display(Name = "Data de entrada no estoque")]
         public DateTime EntryDate { get; set; }
 
         [Required]
-        [Column(TypeName = "DateTime2")]
         [Display(Name = "Data de validade")]
         public DateTime ExpirationDate { get; set; }
 

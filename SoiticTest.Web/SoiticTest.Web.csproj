@@ -441,6 +441,9 @@
     <Content Include="App\Main\views\layout\sidebar-nav.js" />
     <Content Include="App\Main\views\layout\sidebar-user-area.js" />
     <Content Include="App\Main\views\layout\topbar.js" />
+    <Content Include="App\Main\views\movements\createModal.js" />
+    <Content Include="App\Main\views\movements\editModal.js" />
+    <Content Include="App\Main\views\movements\index.js" />
     <Content Include="App\Main\views\products\createModal.js" />
     <Content Include="App\Main\views\products\editModal.js" />
     <Content Include="App\Main\views\products\index.js" />
@@ -2689,6 +2692,9 @@
     <Content Include="App\Main\views\products\createModal.cshtml" />
     <Content Include="App\Main\views\products\editModal.cshtml" />
     <Content Include="App\Main\views\products\index.cshtml" />
+    <Content Include="App\Main\views\movements\createModal.cshtml" />
+    <Content Include="App\Main\views\movements\editModal.cshtml" />
+    <Content Include="App\Main\views\movements\index.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

@@ -91,6 +91,7 @@
     <text name="ExpirationDate">Expiration Date</text>
     <text name="Value">Value</text>
     <text name="Stock">Stock</text>
+    <text name="Movements">StockManagement</text>
 
   </texts>
 </localizationDictionary>

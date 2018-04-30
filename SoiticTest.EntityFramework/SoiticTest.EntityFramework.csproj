@@ -215,21 +215,13 @@
     <Compile Include="Migrations\201803261403237_Upgraded_To_Abp_v3_5.Designer.cs">
       <DependentUpon>201803261403237_Upgraded_To_Abp_v3_5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804241732155_creating_tables.cs" />
-    <Compile Include="Migrations\201804241732155_creating_tables.Designer.cs">
-      <DependentUpon>201804241732155_creating_tables.cs</DependentUpon>
+    <Compile Include="Migrations\201804300310287_create_tables.cs" />
+    <Compile Include="Migrations\201804300310287_create_tables.Designer.cs">
+      <DependentUpon>201804300310287_create_tables.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804251953254_datetime_fix.cs" />
-    <Compile Include="Migrations\201804251953254_datetime_fix.Designer.cs">
-      <DependentUpon>201804251953254_datetime_fix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804252001059_database_fix1.cs" />
-    <Compile Include="Migrations\201804252001059_database_fix1.Designer.cs">
-      <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804262255266_databasefix2.cs" />
-    <Compile Include="Migrations\201804262255266_databasefix2.Designer.cs">
-      <DependentUpon>201804262255266_databasefix2.cs</DependentUpon>
+    <Compile Include="Migrations\201804300547253_database_fix1.cs" />
+    <Compile Include="Migrations\201804300547253_database_fix1.Designer.cs">
+      <DependentUpon>201804300547253_database_fix1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -266,17 +258,11 @@
     <EmbeddedResource Include="Migrations\201803261403237_Upgraded_To_Abp_v3_5.resx">
       <DependentUpon>201803261403237_Upgraded_To_Abp_v3_5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804241732155_creating_tables.resx">
-      <DependentUpon>201804241732155_creating_tables.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804300310287_create_tables.resx">
+      <DependentUpon>201804300310287_create_tables.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804251953254_datetime_fix.resx">
-      <DependentUpon>201804251953254_datetime_fix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804252001059_database_fix1.resx">
-      <DependentUpon>201804252001059_database_fix1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804262255266_databasefix2.resx">
-      <DependentUpon>201804262255266_databasefix2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804300547253_database_fix1.resx">
+      <DependentUpon>201804300547253_database_fix1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

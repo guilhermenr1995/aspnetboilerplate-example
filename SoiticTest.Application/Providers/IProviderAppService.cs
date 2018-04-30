@@ -12,18 +12,18 @@ namespace SoiticTest.Providers
     public interface IProviderAppService : IApplicationService
     {
         [HttpGet]
-        IEnumerable<GetProviderOutput> GetAll();
+        IEnumerable<ProviderDto> GetAll();
 
         [HttpPost]
-        Task Create(CreateProviderInput input);
+        Task Create(ProviderDto input);
 
         [HttpPut]
-        void Update(UpdateProviderInput input);
+        void Update(ProviderDto input);
 
         [HttpPost]
-        void Delete(DeleteProviderInput input);
+        void Delete(ProviderDto input);
 
         [HttpGet]
-        GetProviderOutput GetById(GetProviderInput input);
+        ProviderDto GetById(ProviderDto input);
     }
 }

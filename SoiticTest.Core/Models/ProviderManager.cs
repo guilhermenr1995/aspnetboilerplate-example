@@ -52,7 +52,12 @@ namespace SoiticTest.Models
 
         public Provider GetProviderByID(int id)
         {
-            return _repositoryProvider.Get(id);
+            return _repositoryProvider.FirstOrDefault(x => x.Id == id);
+        }
+
+        public Provider GetProviderByName(string name)
+        {
+            return _repositoryProvider.FirstOrDefault(x => x.Name == name);
         }
 
         public void Update(Provider entity)

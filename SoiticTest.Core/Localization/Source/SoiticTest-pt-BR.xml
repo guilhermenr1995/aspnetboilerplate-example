@@ -52,7 +52,7 @@
     <text name="IsActive" value="Ativo?" />
     <text name="EditRole" value="Editar papel" />
     <text name="EditUser" value="Editar usuário" />
-    <text name="Edit" value="Edit" />
+    <text name="Edit" value="Editar" />
     <text name="Actions" value="Ação" />
     <text name="Users" value="Usuários" />
 
@@ -62,8 +62,7 @@
     <text name="ExpirationDate" value="Data de validade" />
     <text name="Value" value="Valor" />
     <text name="Stock" value="Estoque" />
-
-
+    <text name="Movements" value="Gerenciamento de Estoque" />
 
   </texts>
 </localizationDictionary>

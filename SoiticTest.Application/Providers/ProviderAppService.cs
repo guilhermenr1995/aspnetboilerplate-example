@@ -19,34 +19,34 @@ namespace SoiticTest.Providers
             _providerManager = providerManager;
         }
 
-        public async Task Create(CreateProviderInput input)
+        public async Task Create(ProviderDto input)
         {
-            Provider provider = Mapper.Map<CreateProviderInput, Provider>(input);
+            Provider provider = Mapper.Map<ProviderDto, Provider>(input);
             await _providerManager.Create(provider);
         }
 
-        public void Delete(DeleteProviderInput input)
+        public void Delete(ProviderDto input)
         {
             _providerManager.Delete(input.Id);
         }
 
-        public GetProviderOutput GetById(GetProviderInput input)
+        public ProviderDto GetById(ProviderDto input)
         {
             var getProvider = _providerManager.GetProviderByID(input.Id);
-            GetProviderOutput provider = Mapper.Map<Provider, GetProviderOutput>(getProvider);
+            ProviderDto provider = Mapper.Map<Provider, ProviderDto>(getProvider);
             return provider;
         }
 
-        public IEnumerable<GetProviderOutput> GetAll()
+        public IEnumerable<ProviderDto> GetAll()
         {
             var getAll = _providerManager.GetAllList().ToList();
-            List<GetProviderOutput> providers = Mapper.Map<List<Provider>, List<GetProviderOutput>>(getAll);
+            List<ProviderDto> providers = Mapper.Map<List<Provider>, List<ProviderDto>>(getAll);
             return providers;
         }
 
-        public void Update(UpdateProviderInput input)
+        public void Update(ProviderDto input)
         {
-            Provider provider = Mapper.Map<UpdateProviderInput, Provider>(input);
+            Provider provider = Mapper.Map<ProviderDto, Provider>(input);
             _providerManager.Update(provider);
         }
     }

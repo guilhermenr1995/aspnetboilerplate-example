@@ -7,6 +7,10 @@
             vm.providers = [];
 
             var setAssignedProviders = function (product, providers) {
+
+                console.log('product', product);
+                console.log('providers', providers);
+
                 for (var i = 0; i < providers.length; i++) {
                     //providers = todos fornecedores
                     //product.providers = os selecionados
@@ -34,12 +38,15 @@
                         productService.get({ id: id })
                             .then(function (result) {
                                 vm.product = result.data;
-                                setAssignedProviders(vm.product, vm.providers);
-
                                 console.log('vm.product', vm.product);
+                                console.log('vm.providers', vm.providers);
+
+                                setAssignedProviders(vm.product, vm.providers);
                             });
                     });
             }
+
+            init();
 
             vm.save = function () {
                 var assignedProviders = [];
@@ -64,8 +71,6 @@
             vm.cancel = function () {
                 $uibModalInstance.dismiss({});
             };
-
-            init();
         }
     ]);
 })();

@@ -14,8 +14,8 @@ namespace SoiticTest.Products.Dto
         public string Name { get; set; }
         public string Description { get; set; }
         public string Brand { get; set; }
-        public DateTime EntryDate { get; set; }
-        public DateTime ExpirationDate { get; set; }
+        public string EntryDate { get; set; }
+        public string ExpirationDate { get; set; }
         public decimal Value { get; set; }
         public int Stock { get; set; }
         public virtual ICollection<ProviderDto> Providers { get; set; }

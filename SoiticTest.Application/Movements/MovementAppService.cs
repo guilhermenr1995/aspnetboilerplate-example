@@ -38,14 +38,25 @@ namespace SoiticTest.Movements
             Logger = NullLogger.Instance;
         }
 
-        public virtual IEnumerable<GetMovementDto> GetAll()
+        public IEnumerable<GetMovementDto> GetAll()
         {
             var getAll = _movementManager.GetAllList().ToList();
+            var movementList = new List<GetMovementDto>();
 
-            Logger.Error("MOSTRARRRRR " + getAll.Count);
+            foreach (var movement in getAll)
+            {
+                var move = new GetMovementDto();
+                move.Id = movement.Id;
+                move.Product = movement.Product.Name;
+                move.User = movement.User.FullName;
+                move.PreviousQtd = movement.PreviousQtd;
+                move.CurrentQtd = movement.CurrentQtd;
+                move.Signal = movement.Signal;
 
-            var mapped = Mapper.Map<IEnumerable<Movement>, List<GetMovementDto>>(getAll);
-            return mapped;
+                movementList.Add(move);
+            }
+
+            return movementList;
         }
 
         public async Task Create(CreateMovementDto input)
@@ -57,10 +68,10 @@ namespace SoiticTest.Movements
                 userId = unchecked((int)AbpSession.UserId);
             }
 
+            User user = await _userManager.FindByIdAsync(userId);
             Product product = _productManager.GetProductByID(input.Product);
-            input.Signal = "-";
             input.PreviousQtd = product.Stock;
-            input.CurrentQtd = (product.Stock - input.Quantity);
+            input.CurrentQtd = input.Quantity;
 
             if (input.CurrentQtd < 0)
             {
@@ -73,10 +84,24 @@ namespace SoiticTest.Movements
             var saveInput = new Movement();
             
             saveInput.Product = product;
-            saveInput.User = await _userManager.FindByIdAsync(userId);
+            saveInput.User = user;
             saveInput.PreviousQtd = input.PreviousQtd;
             saveInput.CurrentQtd = input.CurrentQtd;
-            saveInput.Signal = "-";
+
+            if (saveInput.PreviousQtd < saveInput.CurrentQtd)
+            {
+                saveInput.Signal = "+";
+            }
+
+            else if (saveInput.PreviousQtd > saveInput.CurrentQtd)
+            {
+                saveInput.Signal = "-";
+            }
+
+            else
+            {
+                saveInput.Signal = "=";
+            }
 
             await _movementManager.Create(saveInput);
         }

@@ -15,7 +15,6 @@
             }
 
             vm.save = function () {
-                console.log('vm.movement', vm.movement);
                 movementService.create(vm.movement)
                     .then(function () {
                         abp.notify.info(App.localize('SavedSuccessfully'));

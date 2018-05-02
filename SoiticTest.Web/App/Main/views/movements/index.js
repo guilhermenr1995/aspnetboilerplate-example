@@ -31,34 +31,6 @@
                 });
             };
 
-
-            vm.openMovementEditModal = function (movement) {
-                var modalInstance = $uibModal.open({
-                    templateUrl: '/App/Main/views/movements/editModal.cshtml',
-                    controller: 'app.views.movements.editModal as vm',
-                    backdrop: 'static',
-                    resolve: {
-                        id: function () {
-                            return movement.id;
-                        }
-                    }
-                });
-
-                modalInstance.rendered.then(function () {
-
-                    $('#movementphone').inputmask([{ mask: '(99) 9999-9999' }, { mask: '(99) 99999-9999' }]);
-                    $('#movementcpf').inputmask([{ mask: '999.999.999-99' }, { mask: '99.999.999/9999-99' }]);
-
-                    $timeout(function () {
-                        $.AdminBSB.input.activate();
-                    }, 0);
-                });
-
-                modalInstance.result.then(function () {
-                    getMovements();
-                });
-            };
-
             vm.delete = function (movement) {
                 abp.message.confirm(
                     "Deseja excluir " + movement.name + "?",

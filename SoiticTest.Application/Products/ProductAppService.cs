@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Castle.Core.Logging;
+using SoiticTest.Authorization.Users;
 
 namespace SoiticTest.Products
 {
@@ -20,18 +21,28 @@ namespace SoiticTest.Products
         private readonly IProductManager _productManager;
         private readonly IRepository<Provider> _providerRepository;
         private readonly ProviderManager _providerManager;
+        private readonly IRepository<Movement> _movementRepository;
+        private readonly MovementManager _movementManager;
+        private readonly UserManager _userManager;
+
 
         public new ILogger Logger { get; set; }
 
         public ProductAppService(
             IProductManager productManager,
             IRepository<Provider> providerRepository,
-            ProviderManager providerManager
+            ProviderManager providerManager,
+            IRepository<Movement> movementRepository,
+            MovementManager movementManager,
+            UserManager userManager
             )  
         {
             _productManager = productManager;
             _providerRepository = providerRepository;
             _providerManager = providerManager;
+            _movementRepository = movementRepository;
+            _movementManager = movementManager;
+            _userManager = userManager;
 
             Logger = NullLogger.Instance;
         }
@@ -70,7 +81,7 @@ namespace SoiticTest.Products
             return products;
         }
 
-        public void Update(UpdateProductDto input)
+        public async Task UpdateAsync(UpdateProductDto input)
         {   
             // Remover primeiro as existentes
             var productDb = _productManager.GetProductByID(input.Id);
@@ -86,14 +97,36 @@ namespace SoiticTest.Products
                 productDb.Providers.Add(providerDb);
             }
 
-            /*
-            public string Name { get; set; }
-            public string Description { get; set; }
-            public string Brand { get; set; }
-            public DateTime EntryDate { get; set; }
-            public DateTime ExpirationDate { get; set; }
-            public decimal Value { get; set; }
-            public int Stock { get; set; } */
+            // Se o estoque mudou, cria uma movimentação
+            if (productDb.Stock != input.Stock)
+            {
+                var userId = 1;
+
+                if (AbpSession.UserId != null)
+                {
+                    userId = unchecked((int)AbpSession.UserId);
+                }
+
+                User user = await _userManager.FindByIdAsync(userId);
+
+                var movement = new Movement();
+                movement.Product = productDb;
+                movement.User = user;
+                movement.PreviousQtd = productDb.Stock;
+                movement.CurrentQtd = input.Stock;
+
+                // Se o estoque aumentou, cria uma movimentação positiva
+                if (productDb.Stock > input.Stock)
+                {
+                    movement.Signal = "-";
+                }
+                else
+                {
+                    movement.Signal = "+";
+                }
+
+                await _movementManager.Create(movement);
+            }
 
             productDb.Name = input.Name;
             productDb.Description = input.Description;

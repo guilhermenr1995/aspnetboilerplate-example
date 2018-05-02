@@ -22,23 +22,19 @@
                 <table class="table table-hover table-striped">
                     <thead>
                         <tr>
-                            <th> - </th>
-                            <!--
-                                <th>Produto</th>
-                                <th>Usuário</th>
-                            -->
-                            <th>Alteração no estoque</th>
+                            <th class="text-center"> - </th>
+                            <th class="text-center">Produto</th>
+                            <th class="text-center">Usuário</th>
+                            <th class="text-center">Alteração no estoque</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="text-center">
                         <tr ng-repeat="movement in vm.movements">
 
-                            <td style="font-size: 36px; font-weight: bold; line-height: 24px;" ng-class="{'-': 'text-danger', '+': 'text-success'}[movement.signal]">{{movement.signal}}</td>
-                            <!--
-                                <td>{{movement.product.name}}</td>
-                                <td>{{movement.creatorUserId}}</td>
-                            -->
-                                <td>{{movement.previousQtd}} -> {{movement.currentQtd}}</td>
+                            <td style="font-size: 36px; font-weight: bold; line-height: 24px;" ng-class="{'-': 'text-danger', '+': 'text-success', '=': 'text-info'}[movement.signal]">{{movement.signal}}</td>
+                            <td>{{movement.product}}</td>
+                            <td>{{movement.user}}</td>
+                            <td>{{movement.previousQtd}} >> {{movement.currentQtd}}</td>
                             </tr>
                         </tbody>
                     </table>

@@ -223,6 +223,10 @@
     <Compile Include="Migrations\201804300547253_database_fix1.Designer.cs">
       <DependentUpon>201804300547253_database_fix1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805021745591_date_to_string_dates.cs" />
+    <Compile Include="Migrations\201805021745591_date_to_string_dates.Designer.cs">
+      <DependentUpon>201805021745591_date_to_string_dates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="SoiticTestDataModule.cs" />
@@ -263,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804300547253_database_fix1.resx">
       <DependentUpon>201804300547253_database_fix1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805021745591_date_to_string_dates.resx">
+      <DependentUpon>201805021745591_date_to_string_dates.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

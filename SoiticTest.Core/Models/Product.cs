@@ -39,11 +39,11 @@ namespace SoiticTest.Models
 
         [Required]
         [Display(Name = "Data de entrada no estoque")]
-        public DateTime EntryDate { get; set; }
+        public string EntryDate { get; set; }
 
         [Required]
         [Display(Name = "Data de validade")]
-        public DateTime ExpirationDate { get; set; }
+        public string ExpirationDate { get; set; }
 
         [Required]
         [Display(Name = "Valor do produto")]

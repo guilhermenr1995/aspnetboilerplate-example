@@ -21,9 +21,20 @@
                 });
 
                 modalInstance.rendered.then(function () {
-                    setTimeout(function () {
-                        $.AdminBSB.input.activate();
-                    }, 3000);
+                    $('#entryDate').inputmask([{ mask: '99/99/9999' }]);
+                    $('#expirationDate').inputmask([{ mask: '99/99/9999' }]);
+                    $("#value").inputmask('decimal', {
+                        'alias': 'numeric',
+                        'groupSeparator': ',',
+                        'autoGroup': true,
+                        'digits': 2,
+                        'radixPoint': ".",
+                        'digitsOptional': false,
+                        'allowMinus': false,
+                        'prefix': 'R$ ',
+                        'placeholder': ''
+                    });
+                    $.AdminBSB.input.activate();
                 });
 
                 modalInstance.result.then(function () {
@@ -45,9 +56,19 @@
                 });
 
                 modalInstance.rendered.then(function () {
-                    
-                        $.AdminBSB.input.activate();
-                    
+                    $('#entryDate').inputmask([{ mask: '99/99/9999' }]);
+                    $('#expirationDate').inputmask([{ mask: '99/99/9999' }]);
+                    $("#value").inputmask('decimal', {
+                        'alias': 'numeric',
+                        'groupSeparator': ',',
+                        'autoGroup': true,
+                        'digits': 2,
+                        'radixPoint': ".",
+                        'digitsOptional': false,
+                        'allowMinus': false,
+                        'placeholder': ''
+                    });
+                    $.AdminBSB.input.activate();
                 });
 
                 modalInstance.result.then(function () {

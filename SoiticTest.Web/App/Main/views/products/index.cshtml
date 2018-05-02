@@ -23,17 +23,17 @@
                 <table class="table table-hover table-striped">
                     <thead>
                         <tr>
-                            <th>@L("Name")</th>
-                            <th>@L("Description")</th>
-                            <th>@L("Brand")</th>
-                            <th>@L("EntryDate")</th>
-                            <th>@L("ExpirationDate")</th>
-                            <th>@L("Value")</th>
-                            <th>@L("Stock")</th>
-                            <th>@L("Actions")</th>
+                            <th class="text-center">@L("Name")</th>
+                            <th class="text-center">@L("Description")</th>
+                            <th class="text-center">@L("Brand")</th>
+                            <th class="text-center">@L("EntryDate")</th>
+                            <th class="text-center">@L("ExpirationDate")</th>
+                            <th class="text-center">@L("Value")</th>
+                            <th class="text-center">@L("Stock")</th>
+                            <th class="text-center">@L("Actions")</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="text-center">
                         <tr ng-repeat="product in vm.products">
                             <td ng-class="{'text-danger' : product.stock < 3}">{{product.name}}</td>
                             <td>{{product.description}}</td>

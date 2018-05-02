@@ -22,14 +22,14 @@
                 <table class="table table-hover table-striped">
                     <thead>
                         <tr>
-                            <th>@L("FullName")</th>
-                            <th>@L("Address")</th>
-                            <th>@L("Phone")</th>
-                            <th>@L("CPF")</th>
-                            <th>@L("Actions")</th>
+                            <th class="text-center">@L("FullName")</th>
+                            <th class="text-center">@L("Address")</th>
+                            <th class="text-center">@L("Phone")</th>
+                            <th class="text-center">@L("CPF")</th>
+                            <th class="text-center">@L("Actions")</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="text-center">
                         <tr ng-repeat="provider in vm.providers">
                             <td>{{provider.name}}</td>
                             <td>{{provider.address}}</td>

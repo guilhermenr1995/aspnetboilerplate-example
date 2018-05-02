@@ -198,6 +198,7 @@
     <Compile Include="Movements\IMovementAppService.cs" />
     <Compile Include="Movements\MovementAppService.cs" />
     <Compile Include="Products\Dto\ProductDto.cs" />
+    <Compile Include="Products\Dto\UpdateProductDto.cs" />
     <Compile Include="Products\IProductAppService.cs" />
     <Compile Include="Products\ProductAppService.cs" />
     <Compile Include="Providers\Dto\CreateProviderByProductDto.cs" />

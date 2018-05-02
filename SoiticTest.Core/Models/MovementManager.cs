@@ -45,9 +45,9 @@ namespace SoiticTest.Models
             }
         }
 
-        public virtual IEnumerable<Movement> GetAllList()
+        public IEnumerable<Movement> GetAllList()
         {
-            return _repositoryMovement.GetAll();
+            return _repositoryMovement.GetAll().OrderByDescending(x => x.Id);
         }
 
         public Movement GetMovementByID(int id)

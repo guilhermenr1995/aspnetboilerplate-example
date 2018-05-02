@@ -9,8 +9,6 @@
             var setAssignedProviders = function (product, providers) {
 
                 for (var i = 0; i < providers.length; i++) {
-                    //providers = todos fornecedores
-                    //product.providers = os selecionados
 
                     for (var j = 0; j < product.providers.length; j++) {
 

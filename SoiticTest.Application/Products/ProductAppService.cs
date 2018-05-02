@@ -44,7 +44,8 @@ namespace SoiticTest.Products
 
             foreach (var provider in input.Providers)
             {
-                product.Providers.Add(Mapper.Map<ProviderDto, Provider>(provider));
+                var providerFound = _providerManager.GetProviderByID(provider.Id);
+                product.Providers.Add(providerFound);
             }
 
             await _productManager.Create(product);
@@ -69,10 +70,40 @@ namespace SoiticTest.Products
             return products;
         }
 
-        public void Update(ProductDto input)
-        {
-            Product product = Mapper.Map<ProductDto, Product>(input);
-            _productManager.Update(product);
+        public void Update(UpdateProductDto input)
+        {   
+            // Remover primeiro as existentes
+            var productDb = _productManager.GetProductByID(input.Id);
+
+            foreach (var provider in productDb.Providers.ToList())
+            {
+                productDb.Providers.Remove(provider);
+            }
+
+            foreach (var providerId in input.ProviderIds)
+            {
+                var providerDb = _providerManager.GetProviderByID(providerId);
+                productDb.Providers.Add(providerDb);
+            }
+
+            /*
+            public string Name { get; set; }
+            public string Description { get; set; }
+            public string Brand { get; set; }
+            public DateTime EntryDate { get; set; }
+            public DateTime ExpirationDate { get; set; }
+            public decimal Value { get; set; }
+            public int Stock { get; set; } */
+
+            productDb.Name = input.Name;
+            productDb.Description = input.Description;
+            productDb.Brand = input.Brand;
+            productDb.EntryDate = input.EntryDate;
+            productDb.ExpirationDate = input.ExpirationDate;
+            productDb.Value = input.Value;
+            productDb.Stock = input.Stock;
+
+            _productManager.Update(productDb);
         }
 
         IEnumerable<ProviderDto> IProductAppService.GetProviders()

@@ -8,7 +8,6 @@
 
             function getProducts() {
                 productService.getAll({}).then(function (result) {
-                    console.log('result', result);
                     vm.products = result.data;
                 });
             }
@@ -22,7 +21,9 @@
                 });
 
                 modalInstance.rendered.then(function () {
-                    $.AdminBSB.input.activate();
+                    setTimeout(function () {
+                        $.AdminBSB.input.activate();
+                    }, 3000);
                 });
 
                 modalInstance.result.then(function () {
@@ -44,9 +45,9 @@
                 });
 
                 modalInstance.rendered.then(function () {
-                    $timeout(function () {
+                    
                         $.AdminBSB.input.activate();
-                    }, 300);
+                    
                 });
 
                 modalInstance.result.then(function () {

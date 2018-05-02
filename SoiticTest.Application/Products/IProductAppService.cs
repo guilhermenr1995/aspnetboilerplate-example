@@ -19,7 +19,7 @@ namespace SoiticTest.Products
         Task Create(ProductDto input);
 
         [HttpPut]
-        void Update(ProductDto input);
+        void Update(UpdateProductDto input);
 
         [HttpPost]
         void Delete(ProductDto input);

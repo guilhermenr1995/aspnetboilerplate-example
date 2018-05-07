@@ -25,13 +25,13 @@
                     $('#expirationDate').inputmask([{ mask: '99/99/9999' }]);
                     $("#value").inputmask('decimal', {
                         'alias': 'numeric',
-                        'groupSeparator': ',',
+                        'groupSeparator': '',
                         'autoGroup': true,
                         'digits': 2,
                         'radixPoint': ".",
                         'digitsOptional': false,
                         'allowMinus': false,
-                        'prefix': 'R$ ',
+                        'prefix': '',
                         'placeholder': ''
                     });
                     $.AdminBSB.input.activate();
@@ -60,12 +60,13 @@
                     $('#expirationDate').inputmask([{ mask: '99/99/9999' }]);
                     $("#value").inputmask('decimal', {
                         'alias': 'numeric',
-                        'groupSeparator': ',',
+                        'groupSeparator': '',
                         'autoGroup': true,
                         'digits': 2,
                         'radixPoint': ".",
                         'digitsOptional': false,
                         'allowMinus': false,
+                        'prefix': '',
                         'placeholder': ''
                     });
                     $.AdminBSB.input.activate();

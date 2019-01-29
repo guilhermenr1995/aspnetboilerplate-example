@@ -1,4 +1,9 @@
-﻿Para instalar o projeto, siga os passos:
+﻿#ASP.NET Boilerplate, SQL Server e Angular.js
+
+App que simula um painel administrativo com cadastro de usuários, funcionários e produtos.
+
+
+Para instalar o projeto, siga os passos:
 
  - Baixe e o insira no diretório desejado.
  - Com o SQL Server em execução, selecione no **Console de Gerenciador de Pacotes** o projeto **EntityFramework** como padrão, e execute o seguinte código:

@@ -1,4 +1,4 @@
-﻿#ASP.NET Boilerplate, SQL Server e Angular.js
+﻿# ASP.NET Boilerplate, SQL Server e Angular.js
 
 App que simula um painel administrativo com cadastro de usuários, funcionários e produtos.
 
